@@ -1,0 +1,37 @@
+@media only screen and (min-width: 1023px) {
+  section {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    max-width: 1100px;
+    grid-template-areas:
+      " .   two    . "
+      "one  two  four"
+      "one three four"
+      " .  three   . ";
+  }
+
+  header {
+    h2 {
+      font-size: 35px;
+    }
+
+    h1 {
+      font-size: 35px;
+    }
+  }
+  .supervisor {
+    grid-area: one;
+  }
+
+  .team-builder {
+    grid-area: two;
+  }
+
+  .karma {
+    grid-area: three;
+  }
+
+  .calculator {
+    grid-area: four;
+  }
+}

@@ -1,0 +1,21 @@
+.card {
+  border-radius: 3%;
+  padding: 8%;
+  background-color: white;
+  box-shadow: 0px 20px 30px -2px hsla(234, 12%, 34%, 0.2);
+
+  .title {
+    padding-bottom: 5px;
+    font-size: 20px;
+  }
+
+  .description {
+    font-weight: 200;
+    padding-bottom: 40px;
+  }
+
+  .image {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
